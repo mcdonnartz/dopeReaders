@@ -43,7 +43,7 @@ a:hover {
     border-radius: 10px;
 }
 div>ul {
-    display: flex;
+    display: inline-flexbox;
 }
 
 div>ul>li>img {
