@@ -4,6 +4,7 @@ body {
 }
 header {
     background-color: #5D3FD3;
+    width: 100%;
 }
 header>div {
     display: flex;
@@ -42,12 +43,12 @@ a:hover {
     background-color: #BF40BF;
     border-radius: 10px;
 }
-div>ul {
+#pics {
     display: inline-flexbox;
 }
 
-div>ul>li>img {
-    width: 200px;
+#pics>img {
+    height: 200px;
 }
 
 table>thead>tr>th{
