@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+    forms in html
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signup">
+        <h1>Sign up</h1>
+        
+        <input type="text" id="fname" placeholder="first name" minlength="3" maxlength="15" required><br><br>
+
+        <input type="text" id="mname" placeholder="middle name" minlength="3" maxlength="15"><br><br>
+
+        <input type="text" id="lname" placeholder="last name" minlength="3" maxlength="15" required><br>
+
+
+        <label for="username">Username :</label><br>
+        <input type="text" id="username" minlength="5" maxlength="10" placeholder="username" required><br><br>
+
+        <label for="Password">password :</label><br>
+        <input type="password" id="Password" minlength="9" maxlength="16" placeholder="include symbols and numbers to make it stronger" required><br><br>
+
+        <input type="password" id="password" placeholder="confirm your password" minlength="9" maxlength="16" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="email" required><br><br>
+
+        <label for="bday">Date Of Birth :</label><br>
+        <input type="date" id="bday" required>
+
+        <h2>Gender</h2>
+        <input type="radio" id="male" name="gender" class="left">
+        <label for="male">Male</label>
+        <br>
+
+        <input type="radio" id="female" name="gender" class="left">
+        <label for="female">Female</label>
+        <br>
+
+        <input type="radio" name="gender" id="rns" class="left">
+        <label for="rns">Other</label><br>
+
+        <button type="submit" class="Sub">submit</button>
+
+        <p>Already have an account?<a href="signin.html">Login</a></p><br><br>
+
+    </form>
+    <script src="app2.js"></script>
+</body>
+</html>
